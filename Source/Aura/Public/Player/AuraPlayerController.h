@@ -26,7 +26,7 @@ class AURA_API AAuraPlayerController : public APlayerController
 public:
 	AAuraPlayerController();
 
-	virtual void Tick(float DeltaSeconds) override;
+	virtual void PlayerTick(float DeltaTime) override;
 	
 protected:
 	virtual void BeginPlay() override;
@@ -69,4 +69,6 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<USplineComponent> Spline;
+
+	void AutoRun();
 };
