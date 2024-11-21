@@ -19,7 +19,13 @@ public class Aura : ModuleRules
 			"UMG"
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "GameplayTags", "GameplayTasks", "NavigationSystem" });
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
+			"GameplayTags",
+			"GameplayTasks",
+			"NavigationSystem",
+			"Niagara"
+		});
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
