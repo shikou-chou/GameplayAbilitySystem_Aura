@@ -25,5 +25,5 @@ public:
 	/** end Combat Interface **/
 
 private:
-	virtual  void InitAbilityActorInfo() override;
+	virtual void InitAbilityActorInfo() override;
 };
